@@ -1,0 +1,27 @@
+.visualizer-container {
+    
+    position: absolute;
+    top: 70%;
+    width: 50%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.play-button {
+    position: relative;
+    top: 0%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Kreon';
+
+}
+
+.play-button:hover {
+    color: pink
+}
+

@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+}
+
+.page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+.col {
+  float: left;
+  font-size: 40px;
+}
+
+
+
+.left,
+.right {
+  height: 100%;
+  width: 25%;
+  background-color: black;
+}
+
+.middle {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0%;
+
+  font-family: 'Kufam';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logo:hover {
+  color: palevioletred;
+}
+
+.album-cover {
+  position: absolute;
+  top: 20%;
+}
+
+.track-name {
+  position: absolute;
+  top: 55%;
+
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+
+.artists {
+  position: absolute;
+  top: 60%;
+
+  font-family: 'Kreon';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 70%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Kreon';
+
+}
+
+.toggle-button:hover {
+  color: red;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 26.0px 15px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.right-arrow:hover {
+  color: palevioletred;
+  border-color: transparent transparent transparent palevioletred;
+  
+}
+
+.left-arrow:hover {
+  border-color: transparent palevioletred transparent transparent;
+  
+}
+
+.left-arrow-label {
+  position: absolute;
+  top: 25%;
+  left: 7.5%;
+  color: white;
+}
+
+.right-arrow-label {
+  position: absolute;
+  top: 25%;
+  right: 7.5%;
+  color: white;
+}

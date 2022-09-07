@@ -1,0 +1,61 @@
+/* body {
+    background-image: url('trees.jpg');
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+} */
+
+.Landing {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.container-landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.searchbar-text {
+    position: absolute;
+    
+    height: 43px;
+    /* left: calc(50% - 427px/2 + 17.5px); */
+    top: 40%;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.logo-landing {
+    position: absolute;
+    top: 20%;
+    
+
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.search-bar {
+    background-color: white;
+    color: red;
+    position: absolute;
+    top: 50%;
+    width: 500px;
+
+}
